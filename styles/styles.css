@@ -38,12 +38,18 @@
 
 /*container three*/
 .container-three {
+    display: flex;
     gap: 12px;
     padding: 12px;
+    flex-wrap: nowrap;
 }
 .container-three .box {
-    flex:1;
+    flex:1 1 0;
     border: 2px solid #222;
+}
+
+.container-three .box.double {
+    flex: 2 1 0;
 }
 
 /* First column is double width */
