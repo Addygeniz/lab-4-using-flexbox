@@ -15,3 +15,12 @@
 .container-two .box {
     flex:1;
 }
+
+/*container three*/
+.container-three {
+    gap: 15px;
+    padding: 15px;
+}
+.container-thre .box {
+    flex:1;
+}
