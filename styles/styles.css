@@ -1,0 +1,10 @@
+/*container one box styling*/
+.container-one {
+    gap: 10px;
+    padding: 10px;
+}
+.container-one .box {
+    flex:1;
+}
+
+
