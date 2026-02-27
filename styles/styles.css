@@ -1,9 +1,25 @@
+/* Base box style */
+.box {
+    height: 50px;
+    background-color: #7a7a7a;  
+    box-sizing: border-box;
+}
+
+    /* Containers are flex containers */
+.container-one,
+.container-two,
+.container-three,
+.container-four {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #bfe3ef;
+    border: 6px solid #ffffff;
+    margin: 10px 0 30px 0;
+    box-sizing: border-box;
+}
+
 /*container one box styling*/
 .container-one {
-    display:flex;
-    flex-wrap:wrap;
-    background-color:#f4f4f4;
-    border: 2px dashed #ccc
     gap: 10px;
     padding: 10px;
 }
