@@ -7,4 +7,11 @@
     flex:1;
 }
 
-
+/*container two box styling*/
+.container-two {
+    gap: 15px;
+    padding: 15px;
+}
+.container-two .box {
+    flex:1;
+}
