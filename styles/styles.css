@@ -1,5 +1,9 @@
 /*container one box styling*/
 .container-one {
+    display:flex;
+    flex-wrap:wrap;
+    background-color:#f4f4f4;
+    border: 2px dashed #ccc
     gap: 10px;
     padding: 10px;
 }
