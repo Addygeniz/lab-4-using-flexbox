@@ -38,20 +38,27 @@
 
 /*container three*/
 .container-three {
-    gap: 15px;
-    padding: 15px;
+    gap: 12px;
+    padding: 12px;
 }
-.container-thre .box {
+.container-three .box {
     flex:1;
+    border: 2px solid #222;
+}
+
+/* First column is double width */
+.double {
+    flex: 2;
 }
 
 /*container four*/
 .container-four {
-    gap: 15px;
-    padding: 15px;
+    gap: 12px;
+    padding: 12px;
 }
 .container-four .box {
     flex:1;
+    border: 2px solid #222;
 }
 .container-four .footer {
     flex:0 0 100%;
