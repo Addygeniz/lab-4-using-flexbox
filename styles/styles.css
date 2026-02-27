@@ -24,3 +24,15 @@
 .container-thre .box {
     flex:1;
 }
+
+/*container four*/
+.container-four {
+    gap: 15px;
+    padding: 15px;
+}
+.container-four .box {
+    flex:1;
+}
+.container-four .footer {
+    flex:0 0 100%;
+}
